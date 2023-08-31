@@ -1,0 +1,20 @@
+// adaptive
+@import 'mixins.scss';
+
+// adaptive
+@import 'variables.scss';
+
+// General styles
+@import 'common-style.scss';
+
+//fonts
+@import 'parts/fonts';
+
+//style buttons
+@import 'parts/buttons';
+
+// index
+@import 'page/index';
+
+//footer
+@import 'parts/footer';

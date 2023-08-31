@@ -1,0 +1,49 @@
+.button-link {
+  display: inline-flex;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 36px;
+  z-index: 1000;
+
+  button{
+    background: none;
+    border: none;
+  }
+
+  a, button {
+    padding: 24px 48px;
+    white-space: nowrap;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+    color: #21201F;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 17px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    @include media(tablet-max) {
+      font-size: 20px;
+      padding: 18px 40px;
+    }
+
+    @include media(small_mobile-max) {
+      font-size: 18px;
+    }
+  }
+
+  &.yellow{
+    background: #FFDE40;
+    box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+    color: $black;
+    border: 1.5px solid transparent;
+
+    &:hover{
+      transition: all .3s ease-out;
+      opacity: .7;
+    }
+  }
+}
