@@ -145,7 +145,6 @@ main {
 .section-home {
   position: relative;
   z-index: 100;
-  overflow: hidden;
 }
 .section-home:before {
   position: absolute;
@@ -741,6 +740,11 @@ main {
     width: 50%;
     margin: 0 auto;
     display: block;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .section-season-ticket.second .container {
+    width: 1180px;
   }
 }
 @media all and (max-width: 1199px) {

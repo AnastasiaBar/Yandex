@@ -1,7 +1,6 @@
 .section-home{
   position: relative;
   z-index: 100;
-  overflow: hidden;
 
     &:before{
       position: absolute;
@@ -630,7 +629,7 @@
             }
           }
 
-        @include media(all and (max-width: 1200px)) {
+        @media screen and (max-width: 1300px) {
           width: 1180px;
         }
 
